@@ -1,7 +1,8 @@
-import type { NextConfig } from "next";
+import type { NextConfig } from 'next'
 
 const nextConfig: NextConfig = {
-  /* config options here */
-};
+  basePath: '/miranda', // Use your repository name here
+  assetPrefix: '/miranda', // Prefix for static assets
+}
 
-export default nextConfig;
+export default nextConfig
