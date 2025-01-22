@@ -1,8 +1,10 @@
 import type { NextConfig } from 'next'
 
+const isGithubPages = process.env.NODE_ENV === 'production' // Adjust for production builds
+
 const nextConfig: NextConfig = {
-  basePath: '/miranda', // Use your repository name here
-  assetPrefix: '/miranda', // Prefix for static assets
+  basePath: isGithubPages ? '/miranda' : '',
+  assetPrefix: isGithubPages ? '/miranda' : '',
 }
 
 export default nextConfig
