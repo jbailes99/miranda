@@ -16,7 +16,7 @@
 
 body {
   background-color: var(--background);
-  background-image: url('./background.jpg');  /* Correct path to image */
+  background-image: url('/background.jpg');  /* Correct path to image */
   background-size: cover;
   background-position: center;
   color: var(--foreground);
