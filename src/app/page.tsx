@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import { Button } from '@material-tailwind/react'
 
 export default function Home() {
@@ -25,7 +24,7 @@ export default function Home() {
 
         {/* Image Section */}
         <div className='flex flex-col text-center items-center justify-center mb-32'>
-          <Image className='rounded-md' src='./me.jpg' alt='desc' width={500} height={500} />
+          <img className='rounded-md' src='./me.jpg' alt='desc' width={500} height={500} />
         </div>
       </div>
     </div>
