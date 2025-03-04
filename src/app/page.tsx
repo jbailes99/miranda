@@ -5,13 +5,15 @@ export default function Home() {
   return (
     <div
       className='min-h-screen justify-center flex items-center mx-auto px-4 sm:px-6 lg:px-0'
-      // style={{ backgroundImage: "url('/background.jpg')", backgroundSize: 'cover' }}
+      // style={{ backgroundImage: './background.jpg', backgroundSize: 'cover' }}
     >
       <div className='grid grid-cols-1 md:grid-cols-2 '>
         {/* Text Section */}
-        <div className='flex flex-col justify-center text-left mb-32 '>
-          <h1 className='text-gray-800 font-bold text-center text-massive '>MIRANDA</h1>
-          <h1 className='text-gray-800 font-bold text-center text-massive '>GRAVES</h1>
+        <div className='sm:flex sm:flex-col justify-center text-left sm:mb-32 mb-6 '>
+          <div className='sm:mb-0 mb-4 '>
+            <h1 className='text-gray-800 font-bold text-center sm:text-massive '>MIRANDA</h1>
+            <h1 className='text-gray-800 font-bold text-center sm:text-massive '>GRAVES</h1>
+          </div>
           <h1 className='text-center text-gray-400'>
             <span className='hover:text-orange-500 cursor-pointer'>DIRECTOR</span> |
             <span className='hover:text-orange-500 cursor-pointer'> EDITOR</span> |{' '}

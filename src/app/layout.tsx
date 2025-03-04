@@ -25,7 +25,7 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-        <div className="bg-gray-100 min-h-screen bg-[url('/miranda/background.jpg')] bg-cover bg-center">
+        <div className="bg-gray-100 min-h-screen bg-[url('/background.jpg')] bg-cover bg-center">
           <Navbar />
           {children}
         </div>
