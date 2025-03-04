@@ -14,14 +14,19 @@ const NAV_ITEMS = [
     href: '/director',
   },
   {
-    key: 'editor',
-    name: 'Editor',
-    href: '/editor',
+    key: 'writing',
+    name: 'Writing',
+    href: '/writing',
   },
   {
     key: 'creative',
-    name: 'Creative Projects',
+    name: 'Creative Arts',
     href: '/creative',
+  },
+  {
+    key: 'photography',
+    name: 'Photography',
+    href: '/photography',
   },
 ]
 
@@ -36,12 +41,9 @@ const Navbar = () => {
   return (
     <nav className='sticky top-0 z-50 bg-pink-100 bg-opacity-30 shadow-sm border-b-2 border-black backdrop-blur-xl'>
       <div className='max-w-7xl mx-auto px-4 sm:px-4 lg:px-0'>
-        <div className='flex items-center justify-between h-24'>
-          <div className=''>
-            <h1 className='text-black text-2xl'>Miranda</h1>
-          </div>
+        <div className='flex items-center justify-center h-24 w-full'>
           {/* Navigation Links */}
-          <div className='hidden md:flex space-x-6 ml-auto'>
+          <div className='hidden md:flex space-x-6 text-center'>
             {NAV_ITEMS.map(item => (
               <Link key={item.key} href={item.href} className='text-gray-800 text-lg'>
                 {item.name}
