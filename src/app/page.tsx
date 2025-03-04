@@ -25,7 +25,7 @@ export default function Home() {
 
         {/* Image Section */}
         <div className='flex flex-col text-center items-center justify-center mb-32'>
-          <Image className='rounded-md' src='/me.jpg' alt='desc' width={500} height={500} />
+          <Image className='rounded-md' src='./me.jpg' alt='desc' width={500} height={500} />
         </div>
       </div>
     </div>
