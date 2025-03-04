@@ -28,6 +28,11 @@ const NAV_ITEMS = [
     name: 'Photography',
     href: '/photography',
   },
+  {
+    key: 'productiondesign',
+    name: 'Production Design',
+    href: '/productiondesign',
+  },
 ]
 
 const Navbar = () => {

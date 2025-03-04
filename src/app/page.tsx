@@ -22,10 +22,7 @@ export default function Home() {
             <Link href='/director'>
               <span className='hover:text-orange-500 cursor-pointer'>DIRECTOR</span>
             </Link>
-            {' | '}
-            <Link href='/editor'>
-              <span className='hover:text-orange-500 cursor-pointer'>EDITOR</span>
-            </Link>
+
             {' | '}
             <Link href='/writing'>
               <span className='hover:text-orange-500 cursor-pointer'>WRITER</span>
@@ -37,6 +34,11 @@ export default function Home() {
             {' | '}
             <Link href='/photography'>
               <span className='hover:text-orange-500 cursor-pointer'>PHOTOGRAPHER</span>
+            </Link>
+            {' | '}
+
+            <Link href='/productiondesign'>
+              <span className='hover:text-orange-500 cursor-pointer'>PROD. DESIGN</span>
             </Link>
           </h1>
         </div>

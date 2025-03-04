@@ -1,35 +1,23 @@
 import React from 'react'
+import Link from 'next/link'
 
-const Photography = () => {
-  const projects = [
-    {
-      id: 1,
-      title: 'The Nature of Aging',
-      description: 'Watch this amazing video!',
-      image: './natureofaging.png',
-    },
-    {
-      id: 2,
-      title: 'The Future of Technology',
-      description: 'A groundbreaking project on tech advancements!',
-      image: './natureofaging.png',
-    },
-    {
-      id: 3,
-      title: 'Health & Wellness',
-      description: 'Exploring new ways to improve your health.',
-      image: './natureofaging.png',
-    },
-    {
-      id: 4,
-      title: 'Space Exploration',
-      description: 'Join the journey to the stars!',
-      link: 'https://www.youtube.com/watch?v=h39ZTzx4Rmg',
-      image: './natureofaging.png',
-    },
-    // Add more projects here
-  ]
+const projects = [
+  {
+    id: 1,
+    title: 'Between Two Planets',
+    image: '/prod1.jpg',
+    slug: 'between-two-planets', // Add a slug for each project
+  },
+  {
+    id: 2,
+    title: 'Anyas Film',
+    description: 'A groundbreaking project',
+    image: '/prod2.jpg',
+    slug: 'anya-film',
+  },
+]
 
+const Projects = () => {
   return (
     <div>
       <div className='flex flex-col items-center justify-center py-4'>
@@ -38,12 +26,7 @@ const Photography = () => {
       </div>
       <div className='flex justify-center flex-wrap'>
         {projects.map(project => (
-          <a
-            href={`${project.link}`}
-            key={project.id}
-            target='_blank'
-            className='relative group w-[calc(40%-20px)] m-2 mx-4 text-decoration-none'
-          >
+          <div className='relative group w-[calc(40%-20px)] m-2 mx-4 cursor-pointer'>
             <div className='overflow-hidden rounded-lg transition duration-300 ease-in-out transform group-hover:scale-105'>
               <img
                 src={project.image}
@@ -55,11 +38,11 @@ const Photography = () => {
               </div>
             </div>
             <p className='mt-2 text-center'>{project.description}</p>
-          </a>
+          </div>
         ))}
       </div>
     </div>
   )
 }
 
-export default Photography
+export default Projects
