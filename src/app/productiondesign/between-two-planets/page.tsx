@@ -1,6 +1,8 @@
 import React from 'react'
 import Link from 'next/link'
 
+const basePath = process.env.NODE_ENV === 'production' ? '/miranda' : ''
+
 const projects = [
   {
     id: 1,

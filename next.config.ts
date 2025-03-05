@@ -1,7 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: '/miranda', // Replace with your GitHub repo name
-  assetPrefix: '/miranda',
+  // Use a dynamic basePath and assetPrefix for GitHub Pages
+  basePath: process.env.NODE_ENV === 'production' ? '/miranda' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/miranda' : '',
 }
 
 module.exports = nextConfig
