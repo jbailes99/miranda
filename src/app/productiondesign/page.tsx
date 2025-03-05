@@ -5,7 +5,7 @@ const projects = [
   {
     id: 1,
     title: 'Anyas Film',
-    image: '/prod1.jpg',
+    image: './prod1.jpg',
     slug: 'between-two-planets', // Add a slug for each project
   },
   // {
