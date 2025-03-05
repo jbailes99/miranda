@@ -5,22 +5,22 @@ const projects = [
   {
     id: 1,
     description: 'bathroom set',
-    image: '././prod1.jpg',
+    image: '/prod1.jpg',
   },
   {
     id: 2,
     description: 'desk',
-    image: '././prod2.jpg',
+    image: '/prod2.jpg',
   },
   {
     id: 1,
     description: 'side table',
-    image: '././prod3.jpg',
+    image: '/prod3.jpg',
   },
   {
     id: 2,
     description: 'bed',
-    image: '././prod4.jpg',
+    image: '/prod4.jpg',
   },
 ]
 
