@@ -5,13 +5,13 @@ const DirectorPage = () => {
     {
       id: 1,
       title: 'The Nature of Aging',
-      description: 'Watch this amazing video!',
+      description: '',
       embedUrl: 'https://www.youtube.com/embed/h39ZTzx4Rmg',
     },
     {
       id: 2,
       title: 'Between Two Planets',
-      description: 'A groundbreaking project on tech advancements!',
+      description: '',
       embedUrl: '',
       image: './twoplanets.png',
     },
