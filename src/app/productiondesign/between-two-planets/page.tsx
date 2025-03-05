@@ -13,12 +13,12 @@ const projects = [
     image: '/prod2.jpg',
   },
   {
-    id: 1,
+    id: 3,
     description: 'side table',
     image: '/prod3.jpg',
   },
   {
-    id: 2,
+    id: 4,
     description: 'bed',
     image: '/prod4.jpg',
   },

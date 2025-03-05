@@ -1,5 +1,7 @@
-import type { NextConfig } from 'next'
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  basePath: '/miranda', // Replace with your GitHub repo name
+  assetPrefix: '/miranda',
+}
 
-const nextConfig: NextConfig = {}
-
-export default nextConfig
+module.exports = nextConfig
