@@ -4,17 +4,17 @@ import Link from 'next/link'
 const projects = [
   {
     id: 1,
-    title: 'Between Two Planets',
+    title: 'Anyas Film',
     image: '/prod1.jpg',
     slug: 'between-two-planets', // Add a slug for each project
   },
-  {
-    id: 2,
-    title: 'Anyas Film',
-    description: 'A groundbreaking project',
-    image: '/prod2.jpg',
-    slug: 'anya-film',
-  },
+  // {
+  //   id: 2,
+  //   title: 'Anyas Film',
+  //   description: 'A groundbreaking project',
+  //   image: '/prod2.jpg',
+  //   slug: 'anya-film',
+  // },
 ]
 
 const Projects = () => {
@@ -26,7 +26,7 @@ const Projects = () => {
       </div>
       <div className='flex justify-center flex-wrap'>
         {projects.map(project => (
-          <Link key={project.id} href={`/productiondesign/${project.slug}`}>
+          <Link className='flex  justify-center flex-wrap' key={project.id} href={`/productiondesign/${project.slug}`}>
             <div className='relative group w-[calc(40%-20px)] m-2 mx-4 cursor-pointer'>
               <div className='overflow-hidden rounded-lg transition duration-300 ease-in-out transform group-hover:scale-105'>
                 <img
