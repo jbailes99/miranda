@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div
       className='min-h-screen justify-center flex items-center mx-auto px-4 sm:px-6 lg:px-0'
-      // style={{ backgroundImage: './background.jpg', backgroundSize: 'cover' }}
+      style={{ backgroundImage: './background.jpg', backgroundSize: 'cover' }}
     >
       <div className='grid grid-cols-1 md:grid-cols-2 '>
         {/* Text Section */}
