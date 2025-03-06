@@ -5,7 +5,7 @@ import Link from 'next/link'
 const NAV_ITEMS = [
   {
     key: 'home',
-    name: 'Home',
+    name: 'Miranda Graves ',
     href: '/',
   },
   {
@@ -44,9 +44,9 @@ const Navbar = () => {
   }
 
   return (
-    <nav className='sticky top-0 z-50 bg-pink-100 bg-opacity-30 shadow-sm border-b-2 border-black backdrop-blur-xl'>
+    <nav className='sticky top-0 z-50 bg-pink-300 bg-opacity-40 shadow-sm  backdrop-blur-xl'>
       <div className='max-w-7xl mx-auto px-4 sm:px-4 lg:px-0'>
-        <div className='flex items-center justify-center h-24 w-full'>
+        <div className='flex items-center justify-center h-20 w-full'>
           {/* Navigation Links */}
           <div className='hidden md:flex space-x-6 text-center'>
             {NAV_ITEMS.map(item => (
